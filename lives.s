@@ -1,6 +1,6 @@
-/*subtract live- 0, add life- 1*/
+/*subtract life- 0, add life- 1*/
 .global lives
-livesi:
+lives:
 	mov r2, r0
 	cmp r1, #0
 	beq .subtractLife
